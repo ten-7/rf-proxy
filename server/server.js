@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const axios = require('axios');
-const port = process.env.PORT || 4020;
+const port = 3000;
 const app = express();
 app.use(express.static('dist'));
 app.use(bodyParser.json({urlEnconded: true}));
